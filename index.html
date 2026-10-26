@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SantaCheeks™ Santa Pants – The Christmas Gift With a Rear Reveal</title>
+<meta name="description" content="SantaCheeks Santa pants: festive red Christmas pants with a cheeky printed Santa-style back. Demo store mockup.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="announce" role="region" aria-label="Announcements">
+  <div class="announce-track">
+    <span>🎁 Free shipping on orders over $50</span>
+    <span class="dot">•</span>
+    <span>❄️ Limited holiday stock</span>
+    <span class="dot">•</span>
+    <span>🎄 Order early for Christmas delivery</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="wrap header-inner">
+    <button class="icon-btn menu-btn" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <a href="#" class="logo">Santa<span>Cheeks</span><sup>🎅</sup></a>
+    <nav class="nav">
+      <a href="#product">Shop</a><a href="#video">See it</a><a href="#back">The Back</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a>
+    </nav>
+    <button class="icon-btn cart-btn" aria-label="Open cart" id="cartOpen">
+      <svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<main>
+<section class="product wrap" id="product">
+  <div class="gallery">
+    <div class="main-img">
+      <span class="badge-sale">SAVE 37%</span>
+      <img id="mainImg" src="img/new/studio-back-red.jpg" alt="SantaCheeks Santa pants held up showing the printed back">
+      <button class="nav-arrow prev" aria-label="Previous image">‹</button>
+      <button class="nav-arrow next" aria-label="Next image">›</button>
+      <div class="img-caption" id="imgCaption">The rear reveal 🍑</div>
+    </div>
+    <div class="thumbs" id="thumbs">
+      <button class="thumb active" data-src="img/new/studio-back-red.jpg" data-cap="The rear reveal 🍑"><img src="img/new/studio-back-red.jpg" alt="Back print, studio shot" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/studio-front-cream.jpg" data-cap="Front view, worn"><img src="img/new/studio-front-cream.jpg" alt="Front view studio shot" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/front-vs-back.jpg" data-cap="Front vs. back"><img src="img/new/front-vs-back.jpg" alt="Front and back comparison" loading="lazy"></button>
+      <button class="thumb" data-src="assets/img/back-held.jpg" data-cap="Up close on the back"><img src="assets/img/back-held.jpg" alt="Back print held up" loading="lazy"></button>
+      <button class="thumb" data-src="assets/img/front-held.jpg" data-cap="Fresh out of the gift wrap"><img src="assets/img/front-held.jpg" alt="Front held up" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/gift-promo.jpg" data-cap="Gift-ready"><img src="img/new/gift-promo.jpg" alt="Gift promo" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/lifestyle-snow.jpg" data-cap="Matching with the crew"><img src="img/new/lifestyle-snow.jpg" alt="Friends on a snowy street" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/studio-strut-green.jpg" data-cap="Unisex fit"><img src="img/new/studio-strut-green.jpg" alt="Woman wearing the pants" loading="lazy"></button>
+      <button class="thumb" data-src="assets/img/back-dinner.jpg" data-cap="Christmas dinner, from behind"><img src="assets/img/back-dinner.jpg" alt="Back print at dinner" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/whats-included.jpg" data-cap="What you get"><img src="img/new/whats-included.jpg" alt="What you get" loading="lazy"></button>
+      <button class="thumb" data-src="img/new/size-chart.jpg" data-cap="Size chart (example)"><img src="img/new/size-chart.jpg" alt="Size chart" loading="lazy"></button>
+    </div>
+  </div>
+
+  <div class="info">
+    <p class="eyebrow">🔥 Viral holiday gift</p>
+    <h1>SantaCheeks™ Santa Pants</h1>
+    <p class="subtitle">Festive from the front. <em>Hilarious</em> from the back.</p>
+    <a href="#reviews" class="rating">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <span>4.8 out of 5 · 312 reviews <small>(sample)</small></span>
+    </a>
+    <div class="price-row">
+      <span class="price" id="priceMain">$49.99</span>
+      <s class="compare" id="compareMain">$79.99</s>
+      <span class="save" id="saveMain">Save $30</span>
+    </div>
+    <p class="example-note">Example pricing for demo purposes.</p>
+
+    <div class="option">
+      <div class="option-head"><span>Size: <strong id="sizeLabel">M</strong></span><a href="#faq" class="size-guide">Size guide</a></div>
+      <div class="sizes" id="sizes" role="radiogroup" aria-label="Size">
+        <button role="radio" data-size="S">S</button>
+        <button role="radio" data-size="M" class="active" aria-checked="true">M</button>
+        <button role="radio" data-size="L">L</button>
+        <button role="radio" data-size="XL">XL</button>
+        <button role="radio" data-size="XXL">XXL</button>
+      </div>
+    </div>
+
+    <div class="bundles" id="bundles" role="radiogroup" aria-label="Bundle">
+      <p class="opt-title">Bundle &amp; save</p>
+      <label class="bundle active"><input type="radio" name="bundle" value="1" data-price="49.99" data-compare="79.99" checked><span class="b-radio"></span><span class="b-main"><strong>1 Pair</strong><small>Standard price</small></span><span class="b-price"><strong>$49.99</strong><s>$79.99</s></span></label>
+      <label class="bundle"><span class="b-tag">Most Popular</span><input type="radio" name="bundle" value="2" data-price="89.99" data-compare="159.98"><span class="b-radio"></span><span class="b-main"><strong>2 Pairs</strong><small>Save 10% · $45.00/pair</small></span><span class="b-price"><strong>$89.99</strong><s>$159.98</s></span></label>
+      <label class="bundle"><span class="b-tag gold">Best Value</span><input type="radio" name="bundle" value="3" data-price="119.99" data-compare="239.97"><span class="b-radio"></span><span class="b-main"><strong>3 Pairs</strong><small>Save 20% · $40.00/pair</small></span><span class="b-price"><strong>$119.99</strong><s>$239.97</s></span></label>
+      <p class="bundle-note">Pick sizes for each pair at checkout (demo).</p>
+    </div>
+
+    <div class="buy-row">
+      <button class="btn-primary" id="addToCart">Add to Cart &nbsp;|&nbsp; <span id="btnPrice">$49.99</span></button>
+    </div>
+
+    <div class="stock"><span class="pulse"></span> Limited holiday stock, selling fast</div>
+
+    <ul class="benefits">
+      <li><span>🎅</span><div><strong>The rear reveal</strong> – printed Santa-style “cheeks” on the back get the laugh every time</div></li>
+      <li><span>🎄</span><div><strong>Full festive print</strong> – candy-cane red with fluffy-look trim, holiday lights and boot print</div></li>
+      <li><span>🎁</span><div><strong>Gift-ready</strong> – the white-elephant and Secret Santa winner</div></li>
+      <li><span>👖</span><div><strong>Easy pull-on fit</strong> – elastic waist with printed Santa belt, sizes S–XXL</div></li>
+      <li><span>📸</span><div><strong>Made for the photo</strong> – office parties, family dinners, ugly-sweater nights</div></li>
+    </ul>
+
+    <div class="trust">
+      <div><span>🚚</span>Free shipping over $50</div>
+      <div><span>↩️</span>30-day returns</div>
+      <div><span>🔒</span>Demo checkout only</div>
+    </div>
+
+    <div class="fbt" id="fbt">
+      <p class="opt-title">Complete the look <span>Frequently bought together</span></p>
+      <label class="fbt-item locked"><input type="checkbox" checked disabled><img src="img/new/studio-back-red.jpg" alt=""><span class="fi-name">SantaCheeks Santa Pants <small>This item</small></span><span class="fi-price">$49.99</span></label>
+      <label class="fbt-item"><input type="checkbox" class="fbt-cb" data-id="hat" checked><img src="img/new/addon-hat.svg" alt=""><span class="fi-name">Matching Santa Hat <small>One size</small></span><span class="fi-price">$14.99</span></label>
+      <label class="fbt-item"><input type="checkbox" class="fbt-cb" data-id="socks" checked><img src="img/new/addon-socks.svg" alt=""><span class="fi-name">Festive Socks (2-pack) <small>One size</small></span><span class="fi-price">$9.99</span></label>
+      <label class="fbt-item"><input type="checkbox" class="fbt-cb" data-id="wrap"><img src="img/new/addon-giftwrap.svg" alt=""><span class="fi-name">Gift Wrap <small>Ready to gift</small></span><span class="fi-price">$4.99</span></label>
+      <div class="fbt-foot"><div>Bundle total: <strong id="fbtTotal">$74.97</strong></div><button class="btn-secondary" id="fbtAdd">Add selected to cart</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="video-sec" id="video">
+  <div class="wrap video-grid">
+    <div class="video-copy">
+      <p class="eyebrow light">As seen on your feed</p>
+      <h2>Wait for the reactions 😂</h2>
+      <p>Unwrap, put them on, turn around. From the living room to the office party to the snowy walk home, SantaCheeks steal the show.</p>
+      <a href="#product" class="btn-ghost">Get yours</a>
+    </div>
+    <div class="phone">
+      <video src="assets/video/santacheeks.mp4" poster="assets/video/poster.jpg" autoplay muted loop playsinline preload="auto"></video>
+    </div>
+  </div>
+</section>
+
+<section class="back-sec wrap" id="back">
+  <p class="eyebrow center">The main event</p>
+  <h2 class="center">How it looks from the back</h2>
+  <p class="center lead">From the front: classic Santa pants. From behind: the punchline. 🍑</p>
+  <div class="back-grid">
+    <figure><img src="img/new/studio-back-red.jpg" alt="Back print held up" loading="lazy"><figcaption>Up close: the printed “cheeks”</figcaption></figure>
+    <figure><img src="assets/img/back-office.jpg" alt="Back print at office party" loading="lazy"><figcaption>At the office party</figcaption></figure>
+    <figure><img src="assets/img/back-dinner.jpg" alt="Back print at dinner" loading="lazy"><figcaption>Carving the turkey</figcaption></figure>
+    <figure><img src="assets/img/back-group.jpg" alt="Back print in family photo" loading="lazy"><figcaption>The family photo</figcaption></figure>
+  </div>
+  <div class="vs-img"><img src="img/new/front-vs-back.jpg" alt="Front vs back comparison" loading="lazy"></div>
+  <p class="print-note">Note: the “bum” is a printed design on the fabric, just very convincing.</p>
+</section>
+
+
+<section class="promo-band wrap">
+  <img src="img/new/gift-promo.jpg" alt="Gift-ready promo" loading="lazy">
+  <img src="img/new/whats-included.jpg" alt="What you get" loading="lazy">
+  <img src="img/new/lifestyle-snow.jpg" alt="Friends wearing SantaCheeks in the snow" loading="lazy">
+</section>
+
+<section class="reviews-sec" id="reviews">
+  <div class="wrap">
+    <h2 class="center">What people are saying</h2>
+    <p class="center placeholder-tag">Sample reviews for demo. Names, ratings and photos are placeholders, not real customers.</p>
+    <div class="review-summary">
+      <div class="rs-score"><div class="big">4.8</div><div class="stars">★★★★★</div><small>4.8 out of 5 · 312 reviews</small></div>
+      <div class="dist">
+        <div class="dist-row"><span>5★</span><div class="dist-bar"><div style="width:82%"></div></div><span class="dist-n">256</span></div>
+        <div class="dist-row"><span>4★</span><div class="dist-bar"><div style="width:12%"></div></div><span class="dist-n">37</span></div>
+        <div class="dist-row"><span>3★</span><div class="dist-bar"><div style="width:4%"></div></div><span class="dist-n">12</span></div>
+        <div class="dist-row"><span>2★</span><div class="dist-bar"><div style="width:1%"></div></div><span class="dist-n">4</span></div>
+        <div class="dist-row"><span>1★</span><div class="dist-bar"><div style="width:1%"></div></div><span class="dist-n">3</span></div>
+      </div>
+    </div>
+    <div class="review-grid">
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 18, 2025</time></div><h3>Won the white elephant</h3><p>Got stolen three times at the gift swap. Whoever ended up with them wore them for the rest of the night.</p><img class="r-photo" src="assets/img/back-office.jpg" alt="Customer photo (sample)" loading="lazy"><footer><strong>Jordan M.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size L</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 22, 2025</time></div><h3>Grandma cried laughing</h3><p>Turned around to grab the gravy at Christmas dinner. Nobody recovered for ten minutes.</p><footer><strong>Priya S.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size M</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★<span class="off">★</span></div><time>Dec 9, 2025</time></div><h3>Runs a little roomy</h3><p>Super comfy and the print is bright. I'd size down if you're between sizes.</p><footer><strong>Marcus T.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size XL</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 14, 2025</time></div><h3>Strutted out of the fitting room</h3><p>My sister saw the back and had to sit down. 10/10 would strut again.</p><img class="r-photo" src="assets/img/store-strut.jpg" alt="Customer photo (sample)" loading="lazy"><footer><strong>Hannah K.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size S</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 20, 2025</time></div><h3>Office party legend</h3><p>Bought a pair for me and my coworker. We are now the official holiday photo of the department.</p><img class="r-photo" src="assets/img/back-group.jpg" alt="Customer photo (sample)" loading="lazy"><footer><strong>Dave R.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size XXL</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 3, 2025</time></div><h3>Comfy enough to keep on</h3><p>Elastic waist is soft and they didn't dig in. Wore them all through dinner and the movie after.</p><footer><strong>Alicia P.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size M</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 24, 2025</time></div><h3>Best gag gift ever</h3><p>Wrapped them for my brother. The front looked normal and then he flipped them over. Instant chaos.</p><footer><strong>Chris L.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size L</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★<span class="off">★</span></div><time>Dec 11, 2025</time></div><h3>Fun print, quick to arrive</h3><p>Print looks just like the pictures. Took about a week to show up. Knocked one star because I wanted the hat too and forgot.</p><footer><strong>Sam W.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size L</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 16, 2025</time></div><h3>Matching with my friends</h3><p>We got three pairs for our holiday walk. Strangers kept stopping us for photos.</p><img class="r-photo" src="assets/img/street.jpg" alt="Customer photo (sample)" loading="lazy"><footer><strong>Nina G.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size S</span></footer></article>
+      <article class="review"><div class="r-top"><div class="stars">★★★★★<span class="off"></span></div><time>Dec 26, 2025</time></div><h3>Already ordering for next year</h3><p>Every single person at the party wanted to know where I got them.</p><footer><strong>Tom B.</strong><span class="verified">✓ Verified buyer</span><span class="r-size">Size XL</span></footer></article>
+    </div>
+    <div class="center"><button class="btn-ghost dark" id="moreReviews">Show more reviews</button></div>
+  </div>
+</section>
+
+<section class="faq-sec wrap" id="faq">
+  <h2 class="center">FAQ</h2>
+  <div class="faq">
+    <details open><summary>Is the back actually see-through?</summary><p>Nope. The “cheeks” are a printed design on the fabric. It just looks very convincing from across the room.</p></details>
+    <details><summary>How do the sizes run?</summary><p>Unisex relaxed fit with an elastic waist. S (waist 26–29"), M (30–33"), L (34–37"), XL (38–41"), XXL (42–45"). Between sizes? Size down for a snugger look. (Example size chart.)</p><img class="faq-img" src="img/new/size-chart.jpg" alt="Size chart" loading="lazy"></details>
+    <details><summary>When will my order arrive?</summary><p>Example timeline: orders ship in 1–3 business days with typical delivery in 5–10 business days. Order early for Christmas.</p></details>
+    <details><summary>Can I return them?</summary><p>Yes. Unworn items in original condition can be returned within 30 days (example policy).</p></details>
+    <details><summary>How do I wash them?</summary><p>Follow the care label on your pair. Washing inside out helps keep any printed design looking bright.</p></details>
+    <details><summary>Do they make a good gift?</summary><p>They were made for it: Secret Santa, white elephant, stocking stuffer for the person who has everything.</p></details>
+  </div>
+</section>
+
+<section class="ship-sec">
+  <div class="wrap ship-grid">
+    <div><span>🚚</span><h3>Shipping</h3><p>Free shipping on orders over $50. Flat-rate shipping below that. Tracking on every order.</p></div>
+    <div><span>↩️</span><h3>Returns</h3><p>30-day hassle-free returns on unworn items. Just reach out and we'll sort it.</p></div>
+    <div><span>💬</span><h3>Support</h3><p>Questions about sizing or gifting? Our elves reply within 24 hours.</p></div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="wrap">
+    <h2>Give the gift they'll never live down 🎁</h2>
+    <a href="#product" class="btn-primary inline">Shop SantaCheeks · $49.99</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <a href="#" class="logo light">Santa<span>Cheeks</span><sup>🎅</sup></a>
+    <div class="footer-links"><a href="#faq">FAQ</a><a href="#faq">Shipping</a><a href="#faq">Returns</a><a href="#">Contact</a></div>
+    <p class="copy">© 2026 SantaCheeks. Product imagery from promotional video stills.</p>
+    <p class="demo-note">Demo store mockup, not a real shop.</p>
+  </div>
+</footer>
+
+<div class="sticky-atc" id="stickyAtc">
+  <div><strong>Santa Pants</strong><span id="stickyPrice">$49.99 <s>$79.99</s></span></div>
+  <button class="btn-primary" id="stickyBtn">Add to Cart</button>
+</div>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Cart" aria-hidden="true">
+  <div class="drawer-head"><h3>Your Cart</h3><button class="icon-btn" id="cartClose" aria-label="Close cart">✕</button></div>
+  <div class="ship-progress"><p id="shipMsg">You're $50.00 away from free shipping</p><div class="bar"><div id="shipBar"></div></div></div>
+  <div class="drawer-items" id="drawerItems"><p class="empty">Your cart is empty.</p></div>
+  <div class="upsell" id="upsell"><p class="opt-title">Add to your order</p><div id="upsellItems"></div></div>
+  <div class="drawer-foot">
+    <div class="subtotal"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+    <button class="btn-primary full" id="checkoutBtn">Checkout</button>
+    <p class="demo-small">Demo only: no real checkout, nothing will be charged.</p>
+  </div>
+</aside>
+<div class="toast" id="toast"></div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
